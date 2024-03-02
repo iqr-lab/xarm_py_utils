@@ -20,7 +20,7 @@ Launch Gazebo and RViz:
 ros2 launch xarm_planner xarm7_planner_gazebo.launch.py add_gripper:=true
 ```
 
-In another terminal, launch the servo controller:
+In another terminal, launch the servo controller (based on the [```xarm_moveit_servo```](https://github.com/xArm-Developer/xarm_ros2/tree/humble?tab=readme-ov-file#59-xarm_moveit_servo) package):
 ```
 cd ~/dev_ws/src/xarm_py_utils/launch
 ros2 launch servo.launch.py
